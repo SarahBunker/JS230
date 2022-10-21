@@ -175,7 +175,7 @@ const test = Promise.reject("A"); // instantly rejected Promise
 
 (async () => {
   try {
-    console.log(await test); // logs the test results "A"
+    console.log(await test); // the test was rejected so this code isn't ran
   } catch {
     console.log("E"); // catches the rejection logs "E"
   } finally {
