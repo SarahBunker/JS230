@@ -1,0 +1,2 @@
+http --print HBhb -a admin:password --form POST dom-book-app.herokuapp.com/v1/products name="Purple Pen 2.0" sku="purp103" price=100
+http --print HBhb -a admin:password POST book-example.herokuapp.com/v1/products name="Purple Pen 2.0" sku="purp101" price=100
